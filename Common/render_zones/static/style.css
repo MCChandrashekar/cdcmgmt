@@ -1,0 +1,207 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.tree-container {
+    margin-bottom: 50px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;  /* For proper minimap positioning */
+}
+
+.tree-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Node styles */
+.node {
+    cursor: pointer;
+}
+
+.node rect {
+    stroke: #2c3e50;
+    stroke-width: 2px;
+    rx: 10;
+    ry: 10;
+    transition: all 0.3s ease;
+}
+
+.node:hover rect {
+    filter: brightness(1.1);
+}
+
+/* Colors for different node types */
+.root.active rect {
+    fill: #90EE90;
+}
+
+.root.inactive rect {
+    fill: #FFB6C1;
+}
+
+.zone.active rect {
+    fill: #0066cc;
+}
+
+.zone.inactive rect {
+    fill: #808080;
+}
+
+.alias rect {
+    fill: #6C5B7B;
+}
+
+/* Collapsed nodes */
+.node.collapsed rect {
+    fill: #e0e0e0;
+    stroke-dasharray: 5,5;
+}
+
+.node.collapsed text {
+    font-style: italic;
+    fill: #666;
+}
+
+/* Above/Below collapsed blocks */
+.node[class*="collapsed-above"] rect {
+    fill: #b8d4e3;
+    stroke-dasharray: 5,5;
+}
+
+.node[class*="collapsed-below"] rect {
+    fill: #d4b8e3;
+    stroke-dasharray: 5,5;
+}
+
+/* Text styles */
+.node text {
+    font: 14px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    dominant-baseline: middle;
+    text-anchor: middle;
+    fill: black;
+    pointer-events: none;
+    user-select: none;
+    transition: fill 0.3s ease;
+}
+
+.zone text, .alias text {
+    fill: white;
+    font-weight: 500;
+}
+
+/* Expand/Collapse icon */
+.expand-icon {
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+    fill: currentColor;
+}
+
+/* Link styles */
+.link {
+    fill: none;
+    stroke: #95a5a6;
+    stroke-width: 1.5px;
+    transition: stroke 0.3s ease;
+}
+
+.link:hover {
+    stroke: #7f8c8d;
+}
+
+/* Minimap styles */
+.minimap {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.minimap-background {
+    fill: #fff;
+    stroke: #ddd;
+    stroke-width: 1px;
+}
+
+.minimap-viewport {
+    fill: rgba(0, 0, 0, 0.05);
+    stroke: #666;
+    stroke-width: 1px;
+    stroke-dasharray: 2,2;
+}
+
+.minimap-node {
+    fill: #666;
+}
+
+.minimap-node.minimap-zone {
+    fill: #0066cc;
+}
+
+.minimap-node.minimap-alias {
+    fill: #6C5B7B;
+}
+
+.minimap-node.minimap-root {
+    fill: #90EE90;
+}
+
+.minimap-link {
+    stroke: #bdc3c7;
+    stroke-width: 0.5;
+    fill: none;
+}
+
+/* Main SVG */
+svg {
+    width: 100% !important;
+    height: 600px !important;
+    background-color: white;
+}
+
+/* Zoom/Pan behavior */
+.tree-container svg {
+    cursor: grab;
+}
+
+.tree-container svg:active {
+    cursor: grabbing;
+}
+
+/* Zoom container */
+.zoom-container {
+    transition: transform 0.3s ease;
+}
+
+/* Main content */
+.main-content {
+    transition: transform 0.3s ease;
+}
+
+/* Loading state */
+.loading {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    font: 12px sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}

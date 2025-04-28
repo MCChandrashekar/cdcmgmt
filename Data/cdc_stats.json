@@ -1,0 +1,32 @@
+{
+    "zones": {
+        "active": 10,
+        "empty": 2,
+        "one_member": 3,
+        "two_members": 3,
+        "more_members": 2,
+        "inactive": 5,
+        "configured": 15,
+        "max_allowed": 50
+    },
+    "hosts": {
+        "total": 20,
+        "one_port": 5,
+        "two_ports": 8,
+        "three_ports": 4,
+        "four_ports": 2,
+        "more_ports": 1,
+        "total_ports": 45
+    },
+    "controllers": {
+        "total": 8,
+        "zero_subsystem": 2,
+        "one_subsystem": 6,
+        "total_subsystems": 12,
+        "arrays": 4
+    },
+    "networks": {
+        "configured": 3,
+        "max_supported": 10
+    }
+}
