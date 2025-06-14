@@ -1,0 +1,86 @@
+{
+    "active_zones": {
+        "1": {
+            "name": "zone1",
+            "aliases": {
+                "1": {
+                    "name": "alias1",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1"
+                },
+                "4": {
+                    "name": "alias4",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4"
+                }
+            }
+        },
+        "8": {
+            "name": "zone8",
+            "aliases": {
+                "7": {
+                    "name": "alias6",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.30",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+                }
+            }
+        },
+        "2": {
+            "name": "zone2",
+            "aliases": {
+                "12": {
+                    "name": "alias9",
+                    "type": "Controller",
+                    "ip": "192.168.1.110",
+                    "nqn": ""
+                },
+                "14": {
+                    "name": "alias8",
+                    "type": "Subsystem",
+                    "ip": "192.168.1.100",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
+                }
+            }
+        },
+        "3": {
+            "name": "zone3",
+            "aliases": {
+                "5": {
+                    "name": "alias5",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.10",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+                }
+            }
+        }
+    },
+    "inactive_zones": {
+        "4": {
+            "name": "zone4",
+            "aliases": {}
+        },
+        "7": {
+            "name": "zone7"
+        },
+        "5": {
+            "name": "zone5",
+            "aliases": {
+                "2": {
+                    "name": "alias2",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2"
+                },
+                "3": {
+                    "name": "alias3",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host3"
+                }
+            }
+        }
+    }
+}

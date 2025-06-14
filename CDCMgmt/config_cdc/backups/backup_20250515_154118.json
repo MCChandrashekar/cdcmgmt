@@ -1,0 +1,9 @@
+{
+    "interfaces": [
+        "192.168.2.10/24"
+    ],
+    "timestamp": "2025-05-15 15:41:18.638940",
+    "filtered_cdc": {
+        "zonegroups": []
+    }
+}

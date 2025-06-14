@@ -1,0 +1,38 @@
+{
+    "timestamp": "2025-05-15 15:04:25.985984",
+    "zone_configuration": {
+        "zonegroups": [
+            {
+                "id": "zg1",
+                "name": "ZoneGroup1",
+                "zones": [
+                    {
+                        "id": "z1",
+                        "name": "Zone1",
+                        "aliases": [
+                            {
+                                "id": "a1",
+                                "name": "Alias1",
+                                "zone_members": [
+                                    "member1",
+                                    "member2"
+                                ]
+                            },
+                            {
+                                "id": "a2",
+                                "name": "Alias2",
+                                "zone_members": [
+                                    "member3"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "interfaces": [
+        "192.168.1.10/24"
+    ],
+    "log_severity": "DEBUG"
+}

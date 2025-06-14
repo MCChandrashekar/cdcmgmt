@@ -1,0 +1,11 @@
+{
+    "nvmenodes": {},
+    "zone_groups": [
+        "Zgrp1",
+        "Zonegrp1"
+    ],
+    "zones": [
+        "zoneA"
+    ],
+    "aliases": []
+}

@@ -1,0 +1,46 @@
+{
+    "active": [
+        "192.168.1.10/24",
+        "10.22.14.125"
+    ],
+    "log_severity": "INFO",
+    "matched_nodes": {
+        "192.168.1.10/24": {
+            "hosts": [
+                {
+                    "name": "Host 1",
+                    "nqn": "nqn.2024-01.com.host:system1",
+                    "ip": "192.168.1.101"
+                },
+                {
+                    "name": "Host 1",
+                    "nqn": "nqn.2024-01.com.host:system1",
+                    "ip": "192.168.1.102"
+                },
+                {
+                    "name": "Host 2",
+                    "nqn": "nqn.2024-01.com.host:system2",
+                    "ip": "192.168.1.201"
+                }
+            ],
+            "subsystems": [
+                {
+                    "host": "Host 1",
+                    "subsystem_nqn": "nqn.2024-01.com.array1:subsys1"
+                },
+                {
+                    "host": "Host 1",
+                    "subsystem_nqn": "nqn.2024-01.com.array2:subsys1"
+                },
+                {
+                    "host": "Host 2",
+                    "subsystem_nqn": "nqn.2024-01.com.array1:subsys2"
+                }
+            ]
+        },
+        "10.22.14.125": {
+            "hosts": [],
+            "subsystems": []
+        }
+    }
+}

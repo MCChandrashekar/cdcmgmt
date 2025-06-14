@@ -1,0 +1,231 @@
+2025-05-19 14:24:35,000 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:24:35,000 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:24:35,006 - INFO - Interface added: 192.168.1.101
+2025-05-19 14:24:35,136 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:24:35,139 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:27:44,461 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:27:44,462 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:32:46,358 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:32:46,358 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:32:46,379 - INFO - Interface added: 192.168.1.10/24
+2025-05-19 14:32:46,401 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:32:46,401 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:32:46,404 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:32:46,405 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:33:07,515 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:33:07,515 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:33:07,521 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:33:07,524 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:33:07,575 - INFO - Backup saved at: backups\backup_20250519_143307.json
+2025-05-19 14:33:32,726 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:33:32,726 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:33:32,726 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:33:32,726 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:02,033 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:02,033 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:02,033 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:02,039 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:29,249 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:29,249 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:29,249 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:29,249 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:40,958 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:40,958 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:40,973 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:40,973 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:59,142 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:59,142 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:35:59,142 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:35:59,142 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:36:08,885 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:36:08,885 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:36:08,885 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-19 14:36:08,885 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-19 14:36:08,945 - INFO - Backup saved at: C:\Users\arena\Desktop\HPE Project\CDCMgmt\backups\zone1.json
+2025-05-27 23:36:02,655 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:02,658 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:02,659 - INFO - Interface added: 192.168.1.101
+2025-05-27 23:36:02,761 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:02,761 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:20,945 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:20,945 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:31,733 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:31,733 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:34,350 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:34,350 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:43,144 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:36:43,144 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-27 23:36:43,209 - INFO - Backup saved at: C:/Users/arena/Desktop\BACKUP_TEST.json
+2025-05-27 23:40:27,656 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-05-27 23:40:27,660 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-05-29 14:29:25,740 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC113737D0>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:30,448 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC0E767650>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:37,135 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11323AD0>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:39,883 - INFO - Backing off get(...) for 0.4s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='http', port=443): Max retries exceeded with url: /localhost:5001/:8080/cdc/api/v1/nvmenode (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11323A40>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")))
+2025-05-29 14:29:42,982 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11373230>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:47,674 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC113725D0>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:54,356 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11372390>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:29:57,040 - INFO - Backing off get(...) for 0.2s (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='http', port=443): Max retries exceeded with url: /localhost:5001/:8080/cdc/api/v1/nvmenode (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11372360>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")))
+2025-05-29 14:29:59,903 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC11371910>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:30:04,592 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC0E731760>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:30:11,287 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC113724B0>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")': /localhost:5001/:8080/cdc/api/v1/nvmenode
+2025-05-29 14:30:13,985 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.ConnectionError: HTTPSConnectionPool(host='http', port=443): Max retries exceeded with url: /localhost:5001/:8080/cdc/api/v1/nvmenode (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001FC1142C4A0>: Failed to resolve 'http' ([Errno 11001] getaddrinfo failed)")))
+2025-05-29 14:33:50,256 - INFO - Backing off get(...) for 0.1s (requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: http://localhost:8080/cdc/api/v1/nvmenode)
+2025-05-29 14:33:50,425 - INFO - Backing off get(...) for 1.4s (requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: http://localhost:8080/cdc/api/v1/nvmenode)
+2025-05-29 14:33:51,803 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.HTTPError: 403 Client Error: Forbidden for url: http://localhost:8080/cdc/api/v1/nvmenode)
+2025-05-29 14:35:28,487 - INFO - Backing off get(...) for 0.4s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenode)
+2025-05-29 14:35:30,945 - INFO - Backing off get(...) for 0.8s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenode)
+2025-05-29 14:35:33,807 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenode)
+2025-05-29 14:45:12,422 - INFO - Backing off get(...) for 0.6s (requests.exceptions.RetryError: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /cdc/api/v1/nvmenodes (Caused by ResponseError('too many 500 error responses')))
+2025-05-29 14:45:27,309 - INFO - Backing off get(...) for 1.6s (requests.exceptions.RetryError: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /cdc/api/v1/nvmenodes (Caused by ResponseError('too many 500 error responses')))
+2025-05-29 14:45:43,194 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.RetryError: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /cdc/api/v1/nvmenodes (Caused by ResponseError('too many 500 error responses')))
+2025-05-29 14:51:42,132 - INFO - Backing off get(...) for 0.2s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-05-29 14:51:44,349 - INFO - Backing off get(...) for 1.2s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-05-29 14:51:47,614 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-05-29 14:52:29,254 - INFO - Backing off get(...) for 0.2s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-05-29 14:52:31,531 - INFO - Backing off get(...) for 1.2s (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-05-29 14:52:34,815 - ERROR - Giving up get(...) after 3 tries (requests.exceptions.HTTPError: 404 Client Error: NOT FOUND for url: http://localhost:5001/cdc/api/v1/nvmenodes)
+2025-06-09 16:11:17,689 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:17,689 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:17,689 - INFO - Interface added: 192.168.2.10/24
+2025-06-09 16:11:17,723 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:17,723 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:48,195 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:48,195 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:48,404 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:48,404 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:48,404 - INFO - Interface added: 192.168.1.10/24
+2025-06-09 16:11:48,434 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:48,434 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:48,434 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:48,434 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:54,997 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:54,997 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:11:55,005 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:11:55,005 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:16,496 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:16,496 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:16,499 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:16,500 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:19,850 - INFO - Interface deleted: 192.168.1.10/24
+2025-06-09 16:13:19,867 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:19,875 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:23,421 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:23,421 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:26,583 - INFO - Interface deleted: 192.168.2.10/24
+2025-06-09 16:13:55,410 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:55,414 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:13:55,414 - INFO - Interface added: 192.168.1.10/24
+2025-06-09 16:13:55,434 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:13:55,434 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:13,150 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:13,150 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:13,328 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:13,328 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:13,333 - INFO - Interface added: 192.168.2.10/24
+2025-06-09 16:14:13,345 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:13,345 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:13,345 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:13,345 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:41,136 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:41,136 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:14:41,136 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:14:41,136 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:15:03,244 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:15:03,244 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:15:03,244 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:15:03,244 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:15:03,432 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:15:03,432 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:15:03,432 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:15:03,432 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:15:03,468 - INFO - Backup saved at: C:/Users/arena/Desktop\backup.json
+2025-06-09 16:18:04,470 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:18:04,470 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 16:18:04,470 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 16:18:04,470 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:46:52,725 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:46:52,728 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:46:52,730 - INFO - Interface added: 192.168.1.10/24
+2025-06-09 17:46:52,755 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:46:52,755 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:10,080 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:10,080 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:10,407 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:10,407 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:10,407 - INFO - Interface added: 192.168.2.10/24
+2025-06-09 17:47:10,440 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:10,440 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:10,440 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:10,440 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:29,353 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:29,353 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:29,353 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:29,357 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:37,340 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:37,343 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:37,343 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:37,344 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:51,753 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:51,753 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:51,753 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:51,753 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:54,270 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:54,275 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:54,275 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:47:54,275 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:47:54,315 - INFO - Backup saved at: C:/Users/arena/Desktop\backup1.json
+2025-06-09 17:56:49,362 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:49,363 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:49,363 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:49,364 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:52,873 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:52,873 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:52,873 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:52,873 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:55,648 - INFO - Interface deleted: 192.168.1.10/24
+2025-06-09 17:56:55,663 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:55,663 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:58,194 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 17:56:58,202 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 17:56:59,470 - INFO - Interface deleted: 192.168.2.10/24
+2025-06-09 17:57:23,507 - INFO - Backup saved at: backups\backup_20250609_175723.json
+2025-06-09 19:15:33,217 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 19:15:33,226 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 19:15:33,227 - INFO - Interface added: 192.168.1.10/24
+2025-06-09 19:15:33,745 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 19:15:33,746 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 19:15:54,616 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-09 19:15:54,617 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-09 19:15:54,677 - INFO - Backup saved at: backups\backup_20250609_191554.json
+2025-06-12 17:48:42,961 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-12 17:48:43,068 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-12 17:48:43,073 - INFO - Interface added: 192.168.1.10/24
+2025-06-12 17:48:45,294 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-12 17:48:45,297 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-12 17:48:57,988 - INFO - Interface deleted: 192.168.1.10/24
+2025-06-13 16:44:37,094 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:44:37,095 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:44:37,095 - INFO - Interface added: 192.168.1.10/24
+2025-06-13 16:44:37,105 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:44:37,105 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:44:51,151 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:44:51,151 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:44:51,193 - INFO - Backup saved at: backups\backup_20250613_164451.json
+2025-06-13 16:44:56,758 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:44:56,758 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:45:35,184 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:45:35,184 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:58:28,101 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 16:58:28,102 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 16:58:36,622 - INFO - Interface deleted: 192.168.1.10/24
+2025-06-13 18:46:51,048 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 18:46:51,076 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 18:46:51,077 - INFO - Interface added: 192.168.1.10/24
+2025-06-13 18:46:51,095 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 18:46:51,096 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 18:47:19,470 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 18:47:19,470 - WARNING - Invalid IP skipped: 192.168.1.302
+2025-06-13 18:47:19,487 - INFO - Backup saved at: backups\backup_20250613_184719.json
+2025-06-13 18:47:21,610 - WARNING - Invalid IP skipped: 192.168.1.301
+2025-06-13 18:47:21,611 - WARNING - Invalid IP skipped: 192.168.1.302

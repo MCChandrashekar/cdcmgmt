@@ -1,0 +1,78 @@
+{
+    "active_zones": {
+        "16": {
+            "aliases": {
+                "1": {
+                    "ip": "",
+                    "name": "alias1",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1",
+                    "type": "Host"
+                },
+                "4": {
+                    "ip": "",
+                    "name": "alias4",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4",
+                    "type": "Host"
+                }
+            },
+            "name": "zone1"
+        },
+        "17": {
+            "aliases": {},
+            "name": "zone3"
+        },
+        "18": {
+            "aliases": {
+                "11": {
+                    "ip": "192.168.1.100",
+                    "name": "alias11",
+                    "nqn": "",
+                    "type": "Controller"
+                }
+            },
+            "name": "zone8"
+        },
+        "2": {
+            "aliases": {
+                "14": {
+                    "ip": "192.168.1.100",
+                    "name": "alias8",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2",
+                    "type": "Subsystem"
+                }
+            },
+            "name": "zone2"
+        }
+    },
+    "inactive_zones": {
+        "19": {
+            "aliases": {},
+            "name": "zone9"
+        },
+        "4": {
+            "aliases": {
+                "8": {
+                    "name": "alias12",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.40",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p4"
+                }
+            },
+            "name": "zone4"
+        },
+        "5": {
+            "aliases": {
+                "7": {
+                    "ip": "192.168.1.30",
+                    "name": "alias6",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3",
+                    "type": "Host-Port"
+                }
+            },
+            "name": "zone5"
+        },
+        "7": {
+            "name": "zone7"
+        }
+    }
+}

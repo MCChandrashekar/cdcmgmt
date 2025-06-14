@@ -1,0 +1,122 @@
+{
+    "zone_configuration": {
+        "active": [
+            {
+                "ZoneGrpId": 10,
+                "ZoneGrpName": "group4",
+                "zoneCount": 3,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 16,
+                        "ZoneName": "zone1",
+                        "aliasCount": 2,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 1,
+                                "AliasName": "alias1",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1"
+                            },
+                            {
+                                "AliasId": 4,
+                                "AliasName": "alias4",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4"
+                            }
+                        ]
+                    },
+                    {
+                        "ZoneId": 2,
+                        "ZoneName": "zone2",
+                        "aliasCount": 1,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 14,
+                                "AliasName": "alias8",
+                                "Type": "Subsystem",
+                                "IPAddress": "192.168.1.100",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
+                            }
+                        ]
+                    },
+                    {
+                        "ZoneId": 18,
+                        "ZoneName": "zone8",
+                        "aliasCount": 1,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 11,
+                                "AliasName": "alias11",
+                                "Type": "Controller",
+                                "IPAddress": "192.168.1.100",
+                                "NQN": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "ZoneGrpId": 3,
+                "ZoneGrpName": "group3",
+                "zoneCount": 1,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 5,
+                        "ZoneName": "zone5",
+                        "aliasCount": 1,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 7,
+                                "AliasName": "alias6",
+                                "Type": "Host-Port",
+                                "IPAddress": "192.168.1.30",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ZoneGrpId": 8,
+                "ZoneGrpName": "south india",
+                "zoneCount": 0,
+                "ZoneMembers": []
+            },
+            {
+                "ZoneGrpId": 9,
+                "ZoneGrpName": "north india",
+                "zoneCount": 0,
+                "ZoneMembers": []
+            },
+            {
+                "ZoneGrpId": 0,
+                "ZoneGrpName": "Ungrouped",
+                "zoneCount": 2,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 4,
+                        "ZoneName": "zone4",
+                        "aliasCount": 0,
+                        "AliasMembers": []
+                    },
+                    {
+                        "ZoneId": 7,
+                        "ZoneName": "zone7",
+                        "aliasCount": 0,
+                        "AliasMembers": []
+                    }
+                ]
+            }
+        ],
+        "last_updated": "2025-06-13 16:47:32"
+    },
+    "active_interfaces": [
+        "192.168.1.10/24"
+    ],
+    "log_severity": "INFO",
+    "timestamp": "2025-06-13 18:47:19.482799"
+}

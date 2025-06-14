@@ -1,0 +1,122 @@
+{
+    "zone_configuration": {
+        "active": [
+            {
+                "ZoneGrpId": 1,
+                "ZoneGrpName": "Group1",
+                "zoneCount": 2,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 1,
+                        "ZoneName": "zone1",
+                        "aliasCount": 2,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 1,
+                                "AliasName": "alias1",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1"
+                            },
+                            {
+                                "AliasId": 4,
+                                "AliasName": "alias4",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4"
+                            }
+                        ]
+                    },
+                    {
+                        "ZoneId": 8,
+                        "ZoneName": "zone8",
+                        "aliasCount": 1,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 7,
+                                "AliasName": "alias6",
+                                "Type": "Host-Port",
+                                "IPAddress": "192.168.1.30",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "inactive": [
+            {
+                "ZoneGrpId": 2,
+                "ZoneGrpName": "Group2",
+                "zoneCount": 1,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 3,
+                        "ZoneName": "zone3",
+                        "aliasCount": 1,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 5,
+                                "AliasName": "alias5",
+                                "Type": "Host-Port",
+                                "IPAddress": "192.168.1.10",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ZoneGrpId": 3,
+                "ZoneGrpName": "group3",
+                "zoneCount": 1,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 5,
+                        "ZoneName": "zone5",
+                        "aliasCount": 2,
+                        "AliasMembers": [
+                            {
+                                "AliasId": 2,
+                                "AliasName": "alias2",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2"
+                            },
+                            {
+                                "AliasId": 3,
+                                "AliasName": "alias3",
+                                "Type": "Host",
+                                "IPAddress": "",
+                                "NQN": "nqn.2014-08.org.nvmexpress:uuid:host3"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "ZoneGrpId": 0,
+                "ZoneGrpName": "Ungrouped",
+                "zoneCount": 2,
+                "ZoneMembers": [
+                    {
+                        "ZoneId": 4,
+                        "ZoneName": "zone4",
+                        "aliasCount": 0,
+                        "AliasMembers": []
+                    },
+                    {
+                        "ZoneId": 7,
+                        "ZoneName": "zone7",
+                        "aliasCount": 0,
+                        "AliasMembers": []
+                    }
+                ]
+            }
+        ],
+        "last_updated": "2025-05-17 15:38:42"
+    },
+    "active_interfaces": [],
+    "log_severity": "INFO",
+    "timestamp": "2025-06-09 17:57:23.507210"
+}

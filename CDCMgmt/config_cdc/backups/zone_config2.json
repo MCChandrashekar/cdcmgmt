@@ -1,0 +1,31 @@
+{
+    "zonegroups": [
+        {
+            "id": 1,
+            "name": "ZG1"
+        }
+    ],
+    "zones": [
+        {
+            "id": 101,
+            "name": "ZoneA"
+        }
+    ],
+    "aliases": [
+        {
+            "id": 1001,
+            "name": "Alias1",
+            "nqn": "nqn.2024-04.alias1"
+        }
+    ],
+    "zone_members": {
+        "ZG1": [
+            "ZoneA"
+        ]
+    },
+    "active_interfaces": [
+        "192.168.1.10"
+    ],
+    "log_severity": "ERROR",
+    "timestamp": "2025-05-15 14:47:35.014640"
+}

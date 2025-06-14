@@ -1,0 +1,148 @@
+{
+    "nodes": [
+        {
+            "Row": 1,
+            "DevType": "Host",
+            "IPAddress": "",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1",
+            "Alias": "alias1",
+            "Create a Zone": "zone1",
+            "Activate": false
+        },
+        {
+            "Row": 2,
+            "DevType": "Host",
+            "IPAddress": "",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2",
+            "Alias": "alias2",
+            "Create a Zone": "zone5",
+            "Activate": false
+        },
+        {
+            "Row": 3,
+            "DevType": "Host",
+            "IPAddress": "",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host3",
+            "Alias": "alias3",
+            "Create a Zone": "zone5",
+            "Activate": false
+        },
+        {
+            "Row": 4,
+            "DevType": "Host",
+            "IPAddress": "",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4",
+            "Alias": "alias4",
+            "Create a Zone": "zone1",
+            "Activate": true
+        },
+        {
+            "Row": 5,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.10",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1-p1",
+            "Alias": "alias5",
+            "Create a Zone": "zone3",
+            "Activate": true
+        },
+        {
+            "Row": 6,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.11",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1-p2",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 7,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.30",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p3",
+            "Alias": "alias6",
+            "Create a Zone": "zone8",
+            "Activate": true
+        },
+        {
+            "Row": 8,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.40",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p4",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 9,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.50",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host3-p5",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 10,
+            "DevType": "Host-Port",
+            "IPAddress": "192.168.1.60",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4-p6",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 11,
+            "DevType": "Controller",
+            "IPAddress": "192.168.1.100",
+            "NQN": "",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 12,
+            "DevType": "Controller",
+            "IPAddress": "192.168.1.110",
+            "NQN": "",
+            "Alias": "alias9",
+            "Create a Zone": "zone2",
+            "Activate": true
+        },
+        {
+            "Row": 13,
+            "DevType": "Subsystem",
+            "IPAddress": "192.168.1.100",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys1",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 14,
+            "DevType": "Subsystem",
+            "IPAddress": "192.168.1.100",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2",
+            "Alias": "alias8",
+            "Create a Zone": "zone2",
+            "Activate": true
+        },
+        {
+            "Row": 15,
+            "DevType": "Subsystem",
+            "IPAddress": "192.168.1.100",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys3",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        },
+        {
+            "Row": 16,
+            "DevType": "Subsystem",
+            "IPAddress": "192.168.1.110",
+            "NQN": "nqn.2014-08.org.nvmexpress:uuid:c1subsys",
+            "Alias": "",
+            "Create a Zone": "",
+            "Activate": false
+        }
+    ]
+}

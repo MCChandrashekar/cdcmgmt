@@ -1,0 +1,513 @@
+{
+    "zone_configuration": {
+        "active": {
+            "ZoneGrpId": 1,
+            "ZoneGrpName": "zoneGroup",
+            "zoneCount": 48,
+            "ZoneMembers": [
+                {
+                    "ZoneId": 2,
+                    "ZoneName": "zone1",
+                    "aliasCount": 2,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 1,
+                            "AliasName": "alias4",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.101",
+                            "NQN": "nqn.1992-01.example.com:string1"
+                        },
+                        {
+                            "AliasId": 2,
+                            "AliasName": "alias5",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.102",
+                            "NQN": "nqn.1992-01.example.com:string2"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 4,
+                    "ZoneName": "zone3",
+                    "aliasCount": 4,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 3,
+                            "AliasName": "alias6",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.103",
+                            "NQN": "nqn.1992-01.example.com:string3"
+                        },
+                        {
+                            "AliasId": 4,
+                            "AliasName": "alias1",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.104",
+                            "NQN": "nqn.1992-01.example.com:string4"
+                        },
+                        {
+                            "AliasId": 5,
+                            "AliasName": "alias2",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.105",
+                            "NQN": "nqn.1992-01.example.com:string5"
+                        },
+                        {
+                            "AliasId": 6,
+                            "AliasName": "alias3",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.106",
+                            "NQN": "nqn.1992-01.example.com:string6"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 6,
+                    "ZoneName": "zone5",
+                    "aliasCount": 12,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 7,
+                            "AliasName": "alias7",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.107",
+                            "NQN": "nqn.1992-01.example.com:string7"
+                        },
+                        {
+                            "AliasId": 8,
+                            "AliasName": "alias8",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.108",
+                            "NQN": "nqn.1992-01.example.com:string8"
+                        },
+                        {
+                            "AliasId": 9,
+                            "AliasName": "alias9",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.109",
+                            "NQN": "nqn.1992-01.example.com:string9"
+                        },
+                        {
+                            "AliasId": 10,
+                            "AliasName": "alias10",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.110",
+                            "NQN": "nqn.1992-01.example.com:string10"
+                        },
+                        {
+                            "AliasId": 11,
+                            "AliasName": "alias11",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.111",
+                            "NQN": "nqn.1992-01.example.com:string11"
+                        },
+                        {
+                            "AliasId": 12,
+                            "AliasName": "alias12",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.112",
+                            "NQN": "nqn.1992-01.example.com:string12"
+                        },
+                        {
+                            "AliasId": 13,
+                            "AliasName": "alias13",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.113",
+                            "NQN": "nqn.1992-01.example.com:string13"
+                        },
+                        {
+                            "AliasId": 14,
+                            "AliasName": "alias14",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.114",
+                            "NQN": "nqn.1992-01.example.com:string14"
+                        },
+                        {
+                            "AliasId": 15,
+                            "AliasName": "alias15",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.115",
+                            "NQN": "nqn.1992-01.example.com:string15"
+                        },
+                        {
+                            "AliasId": 16,
+                            "AliasName": "alias16",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.116",
+                            "NQN": "nqn.1992-01.example.com:string16"
+                        },
+                        {
+                            "AliasId": 17,
+                            "AliasName": "alias17",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.117",
+                            "NQN": "nqn.1992-01.example.com:string17"
+                        },
+                        {
+                            "AliasId": 18,
+                            "AliasName": "alias18",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.118",
+                            "NQN": "nqn.1992-01.example.com:string18"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 7,
+                    "ZoneName": "zone6",
+                    "aliasCount": 4,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 19,
+                            "AliasName": "alias19",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.119",
+                            "NQN": "nqn.1992-01.example.com:string19"
+                        },
+                        {
+                            "AliasId": 20,
+                            "AliasName": "alias20",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.120",
+                            "NQN": "nqn.1992-01.example.com:string20"
+                        },
+                        {
+                            "AliasId": 21,
+                            "AliasName": "alias21",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.121",
+                            "NQN": "nqn.1992-01.example.com:string21"
+                        },
+                        {
+                            "AliasId": 22,
+                            "AliasName": "alias22",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.122",
+                            "NQN": "nqn.1992-01.example.com:string22"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 5,
+                    "ZoneName": "zone7",
+                    "aliasCount": 1,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 23,
+                            "AliasName": "alias23",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.123",
+                            "NQN": "nqn.1992-01.example.com:string23"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 8,
+                    "ZoneName": "zone8",
+                    "aliasCount": 2,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 24,
+                            "AliasName": "alias24",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.124",
+                            "NQN": "nqn.1992-01.example.com:string24"
+                        },
+                        {
+                            "AliasId": 25,
+                            "AliasName": "alias25",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.125",
+                            "NQN": "nqn.1992-01.example.com:string25"
+                        }
+                    ]
+                },
+                {
+                    "ZoneId": 9,
+                    "ZoneName": "zone9",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 10,
+                    "ZoneName": "zone10",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 11,
+                    "ZoneName": "zone11",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 12,
+                    "ZoneName": "zone12",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 13,
+                    "ZoneName": "zone13",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 14,
+                    "ZoneName": "zone14",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 15,
+                    "ZoneName": "zone15",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 16,
+                    "ZoneName": "zone16",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 17,
+                    "ZoneName": "zone17",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 18,
+                    "ZoneName": "zone18",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 19,
+                    "ZoneName": "zone19",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 20,
+                    "ZoneName": "zone20",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 21,
+                    "ZoneName": "zone21",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 22,
+                    "ZoneName": "zone22",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 23,
+                    "ZoneName": "zone23",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 24,
+                    "ZoneName": "zone24",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 25,
+                    "ZoneName": "zone25",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 26,
+                    "ZoneName": "zone26",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 27,
+                    "ZoneName": "zone27",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 28,
+                    "ZoneName": "zone28",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 29,
+                    "ZoneName": "zone29",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 30,
+                    "ZoneName": "zone30",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 31,
+                    "ZoneName": "zone31",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 32,
+                    "ZoneName": "zone32",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 33,
+                    "ZoneName": "zone33",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 34,
+                    "ZoneName": "zone34",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 35,
+                    "ZoneName": "zone35",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 36,
+                    "ZoneName": "zone36",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 37,
+                    "ZoneName": "zone37",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 38,
+                    "ZoneName": "zone38",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 39,
+                    "ZoneName": "zone39",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 40,
+                    "ZoneName": "zone40",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 41,
+                    "ZoneName": "zone41",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 42,
+                    "ZoneName": "zone42",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 43,
+                    "ZoneName": "zone43",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 44,
+                    "ZoneName": "zone44",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 45,
+                    "ZoneName": "zone45",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 46,
+                    "ZoneName": "zone46",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 47,
+                    "ZoneName": "zone47",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 48,
+                    "ZoneName": "zone48",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 49,
+                    "ZoneName": "zone49",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                },
+                {
+                    "ZoneId": 50,
+                    "ZoneName": "zone50",
+                    "aliasCount": 0,
+                    "AliasMembers": []
+                }
+            ]
+        },
+        "inactive": {
+            "ZoneGrpId": 0,
+            "ZoneGrpName": "Unknown",
+            "zoneCount": 1,
+            "ZoneMembers": [
+                {
+                    "ZoneId": 3,
+                    "ZoneName": "zone2",
+                    "aliasCount": 2,
+                    "AliasMembers": [
+                        {
+                            "AliasId": 5,
+                            "AliasName": "alias5",
+                            "Type": "Storage",
+                            "IPAddress": "10.22.14.105",
+                            "NQN": "nqn.1992-01.example.com:string25"
+                        },
+                        {
+                            "AliasId": 6,
+                            "AliasName": "alias6",
+                            "Type": "Host",
+                            "IPAddress": "10.22.14.106",
+                            "NQN": "nqn.1992-01.example.com:string26"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "active_interfaces": [
+        "192.168.2.10/24"
+    ],
+    "log_severity": "DEBUG",
+    "timestamp": "2025-05-16 18:06:04.128221"
+}

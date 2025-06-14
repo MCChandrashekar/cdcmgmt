@@ -1,0 +1,146 @@
+{
+    "hosts": {
+      "name": "Host Systems",
+      "type": "host-root",
+      "children": [
+        {
+          "name": "Host 1",
+          "nqn": "nqn.2024-01.com.host:system1",
+          "type": "host",
+          "children": [
+            {
+              "name": "Portal 1",
+              "type": "portal",
+              "details": {"ip": "192.168.1.101"},
+              "connections": ["nqn.2024-01.com.array1:subsys1", "10.0.0.11"]
+            },
+            {
+              "name": "Portal 2",
+              "type": "portal",
+              "details": {"ip": "192.168.1.102"},
+              "connections": ["nqn.2024-01.com.array2:subsys1", "10.0.0.21"]
+            }
+          ]
+        },
+        {
+          "name": "Host 2",
+          "nqn": "nqn.2024-01.com.host:system2",
+          "type": "host",
+          "children": [
+            {
+              "name": "Portal 1",
+              "type": "portal",
+              "details": {"ip": "192.168.1.201"},
+              "connections": ["nqn.2024-01.com.array1:subsys2", "10.0.0.12"]
+            }
+          ]
+        },
+        {
+          "name": "Host 3",
+          "nqn": "nqn.2024-01.com.host:system3",
+          "type": "host",
+          "children": [
+            {
+              "name": "Portal 1",
+              "type": "portal",
+              "details": {"ip": "192.168.1.301"},
+              "connections": ["nqn.2024-01.com.array2:subsys2", "10.0.0.22"]
+            },
+            {
+              "name": "Portal 2",
+              "type": "portal",
+              "details": {"ip": "192.168.1.302"},
+              "connections": ["nqn.2024-01.com.array1:subsys3", "10.0.0.13"]
+            }
+          ]
+        }
+      ]
+    },
+    "storage": {
+      "name": "Storage Systems",
+      "type": "storage-root",
+      "children": [
+        {
+          "name": "Array 1",
+          "nqn": "nqn.2024-01.com.array1:system",
+          "type": "array",
+          "details": {
+            "vendor": "VendorA",
+            "name": "MainStorage"
+          },
+          "children": [
+            {
+              "name": "Controller 1",
+              "type": "controller",
+              "details": {"ip": "10.0.0.11"},
+              "children": [
+                {
+                  "name": "Subsystem 1",
+                  "type": "subsystem",
+                  "nqn": "nqn.2024-01.com.array1:subsys1",
+                  "details": {"capacity": "500GB"}
+                },
+                {
+                  "name": "Subsystem 2",
+                  "type": "subsystem",
+                  "nqn": "nqn.2024-01.com.array1:subsys2",
+                  "details": {"capacity": "1TB"}
+                }
+              ]
+            },
+            {
+              "name": "Controller 2",
+              "type": "controller",
+              "details": {"ip": "10.0.0.12"},
+              "children": [
+                {
+                  "name": "Subsystem 3",
+                  "type": "subsystem",
+                  "nqn": "nqn.2024-01.com.array1:subsys3",
+                  "details": {"capacity": "2TB"}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Array 2",
+          "nqn": "nqn.2024-01.com.array2:system",
+          "type": "array",
+          "details": {
+            "vendor": "VendorB",
+            "name": "BackupStorage"
+          },
+          "children": [
+            {
+              "name": "Controller 1",
+              "type": "controller",
+              "details": {"ip": "10.0.0.21"},
+              "children": [
+                {
+                  "name": "Subsystem 1",
+                  "type": "subsystem",
+                  "nqn": "nqn.2024-01.com.array2:subsys1",
+                  "details": {"capacity": "1TB"}
+                }
+              ]
+            },
+            {
+              "name": "Controller 2",
+              "type": "controller",
+              "details": {"ip": "10.0.0.22"},
+              "children": [
+                {
+                  "name": "Subsystem 2",
+                  "type": "subsystem",
+                  "nqn": "nqn.2024-01.com.array2:subsys2",
+                  "details": {"capacity": "1TB"}
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

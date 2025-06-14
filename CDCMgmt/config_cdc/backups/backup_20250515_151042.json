@@ -1,0 +1,13 @@
+{
+    "zone_config": {
+        "zonegroups": [],
+        "zones": [],
+        "aliases": [],
+        "zone_members": []
+    },
+    "active_interfaces": [
+        "192.168.1.10/24"
+    ],
+    "log_severity": "INFO",
+    "timestamp": "2025-05-15 15:10:42.411975"
+}
