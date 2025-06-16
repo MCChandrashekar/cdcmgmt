@@ -1,11 +1,12 @@
 import streamlit as st
-from .activate_zone import CreateActivateZone, load_data, save_zones,fetch_zones_from_api, create_zone_api, delete_zone_api
-from .aliases import Alias2ZoneLink , load_alias , save_alias_data, refresh_data
+from .activate_zone import CreateActivateZone, load_data, save_zones
+from .aliases import load_alias , save_alias_data, refresh_data 
 from .zonegroup import CreateZoneGroup , ZoneGroupManager
 from datetime import datetime
 import pandas as pd
 import json
-from .config_manager import update_zone_config, ZONE_CONFIG_PATH
+from .config_manager import remove_alias_from_all_zones , update_zone_config
+
 
 def add_log(message):
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -101,7 +102,6 @@ def update_aliases_from_nodes(nodes_data):
     # Load current alias and zone data
     alias_data = load_alias()
     new_free_aliases = {}
-    
     for node in nodes_data:
         if node.get("Alias"):
             alias_id = str(node.get("Row"))
@@ -172,7 +172,7 @@ def nodes_config():
     if 'current_df' not in st.session_state:
         st.session_state.current_df = df.copy()
 
-    required_columns = ['Row', 'Alias']
+    required_columns = ['Row', 'Alias','Delete']
     for col in required_columns:
         if col not in st.session_state.current_df.columns:
             st.session_state.current_df[col] = ""
@@ -186,66 +186,81 @@ def nodes_config():
     with col2:
         st.markdown("### Configure Alias")
         edit_df = st.session_state.current_df[required_columns].copy()
-
+        edit_df['Delete'] = False
         edited_df = st.data_editor(
                 edit_df,
                 hide_index=True,
                 use_container_width=True,
                 column_config={
                     "Row": st.column_config.NumberColumn("Row#", help="Corresponding row", width="small", disabled=True),
-                    "Alias": st.column_config.TextColumn("Alias", help="Name for the device", width="small", max_chars=32)
-                }
+                    "Alias": st.column_config.TextColumn("Alias", help="Name for the device", width="small", max_chars=32),
+                    "Delete": st.column_config.CheckboxColumn("Delete", width="small")
+                },key = "alias_editor"
             )
-        if not edited_df.equals(edit_df):
-            with st.status("Saving alias changes..."):
+         # Delete selected alias
+        selected_alias = None
+        if not edited_df[edited_df['Delete']].empty:
+            selected_alias = edited_df[edited_df['Delete']].iloc[0]['Alias']
+
+        # Delete button (only shows when an alias is selected)
+        if selected_alias:
+            if st.button("🗑️ Delete Alias", type="primary"):
+                with st.status(f"Deleting {selected_alias}..."):
+                        # 1. Remove alias from all zones
+                        zone_data = load_data()
+                        for zone_dict in [zone_data["active_zones"], zone_data["inactive_zones"]]:
+                            for zid, zobj in zone_dict.items():
+                                aliases = zobj.get("aliases", {})
+                                # Find alias ID by name
+                                to_remove = [k for k, v in aliases.items() if v["name"] == selected_alias]
+                                for k in to_remove:
+                                    aliases.pop(k, None)
+                        save_zones(zone_data)
+                        # 2. Remove from alias data
+                        alias_data = load_alias()
+                        alias_data["member_aliases"] = {
+                            k: v for k, v in alias_data["member_aliases"].items() 
+                            if v["name"] != selected_alias
+                        }
+                        alias_data["free_aliases"] = {
+                            k: v for k, v in alias_data["free_aliases"].items() 
+                            if v["name"] != selected_alias}
+                        save_alias_data(alias_data)
+
+                        # 3. Remove from DataFrame
+                        st.session_state.current_df.loc[
+                            st.session_state.current_df['Alias'] == selected_alias, 'Alias'] = ""
+                        save_registered_nodes(st.session_state.current_df.to_dict("records"))
+                        remove_alias_from_all_zones(selected_alias)
+                        update_zone_config()
+                        update_aliases_from_nodes(st.session_state.current_df.to_dict("records"))
+                        
+                        st.success(f"Alias '{selected_alias}' deleted!")
+                        st.rerun()
+
+        if not edited_df[['Row', 'Alias']].equals(edit_df[['Row', 'Alias']]):
+            with st.status("Saving changes..."):
                 st.session_state.current_df['Alias'] = edited_df['Alias']
+                update_zone_config()
                 save_registered_nodes(st.session_state.current_df.to_dict("records"))
                 update_aliases_from_nodes(st.session_state.current_df.to_dict("records"))
-                st.success("Alias changes saved!")
                 st.rerun()
-    
-    st.write("##### Delete Alias")
-    st.markdown("### Delete Alias")
-    if not st.session_state.current_df['Alias'].any():
-        st.info("No aliases to delete")
-    else:
-        alias_to_delete = st.selectbox(
-            "Select Alias to Delete",
-            options=[a for a in st.session_state.current_df['Alias'].unique() if a],
-            key="delete_alias"
-        )
-        
-        if st.button("Delete Alias", type="primary"):
-            with st.status("Deleting alias..."):
-                df = st.session_state.current_df
-                df.loc[df["Alias"] == alias_to_delete, "Alias"] = ""
-                save_registered_nodes(df.to_dict("records"))
-                update_aliases_from_nodes(df.to_dict("records"))
-                st.success(f"Alias '{alias_to_delete}' deleted")
-                st.rerun()
+
     
 def main():
     st.title(" Zone Configuration")
-    tabs = st.tabs([" 1.Alias", "2.Zone", "3.Link Alias to Zone", "4.Zone Group"])
+    tabs = st.tabs([" 1.Alias", "2.Zone","3.Zone Group"])
     with tabs[0]:
         st.header("🖊Alias Management")
-        st.markdown("**💡NOTE:**  *You can create/edit alias in the 'Alias' in the Configure table below.*", unsafe_allow_html=True)
         nodes_config()
         create_legend()
 
     with tabs[1]:
-        st.header("🗃Zone Creation & Activation")
-        st.markdown("**INFO**: *Zones can be created and activated here.*")
+        st.header("🗃Zone Configuration")
         CreateActivateZone(callback_logging=add_log)
 
     with tabs[2]:
-        st.header("🔗 Link Alias to Zone")
-        st.markdown("**Note:**  *Ensure that the alias is created before linking it to a zone.*")
-        Alias2ZoneLink(callback_logging=add_log)
-
-    with tabs[3]:
         st.header("🗂️ Zone Group Management")
-        st.markdown("**Note:** *Ensure that the zone is created before adding it to a zone group.*")
         CreateZoneGroup(callback_logging=add_log)
         ZoneGroupManager(callback_logging=add_log)
     
@@ -255,3 +270,44 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+    # st.markdown("### Delete Alias")
+    # if not st.session_state.current_df['Alias'].any():
+    #     st.info("No aliases to delete")
+    # else:
+    #     alias_to_delete = st.selectbox("Select Alias to Delete", 
+    #                                     options=st.session_state.current_df['Alias'].unique().tolist(),
+    #                                     help="Select an alias to delete from the system")
+    #     member_alias_dict = {v["name"]: k for k, v in alias_data["member_aliases"].items()}
+    #     alias_data = load_alias()
+    #     if st.button("Delete Alias", type="primary"):
+    #         alias_id = member_alias_dict.get(alias_to_delete)
+    #         if not alias_id:
+    #             st.error(f"Alias '{alias_to_delete}' not found.")
+    #             return
+    #         with st.status("Deleting alias..."):
+    #             # 1. Remove alias from all zones
+    #             zone_data = load_data()
+    #             for zone_dict in [zone_data["active_zones"], zone_data["inactive_zones"]]:
+    #                 for zid, zobj in zone_dict.items():
+    #                     zobj.get("aliases", {}).pop(alias_id, None)
+    #             save_zones(zone_data)
+
+    #             # 2. Remove from alias data
+    #             alias_data = load_alias()
+    #             alias_data["member_aliases"].pop(alias_id, None)
+    #             alias_data["free_aliases"].pop(alias_id, None)
+    #             save_alias_data(alias_data)
+
+    #             # 3. Remove from DataFrame
+    #             df = st.session_state.current_df
+    #             df.loc[df["Alias"] == alias_to_delete, "Alias"] = ""
+    #             save_registered_nodes(df.to_dict("records"))
+    #             update_aliases_from_nodes(df.to_dict("records"))
+
+    #             st.success(f"Alias '{alias_to_delete}' deleted from system.")
+    #             st.rerun()

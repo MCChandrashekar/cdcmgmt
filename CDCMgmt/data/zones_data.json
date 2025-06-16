@@ -2,12 +2,6 @@
     "active_zones": {
         "16": {
             "aliases": {
-                "1": {
-                    "ip": "",
-                    "name": "alias1",
-                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1",
-                    "type": "Host"
-                },
                 "4": {
                     "ip": "",
                     "name": "alias4",
@@ -18,19 +12,21 @@
             "name": "zone1"
         },
         "17": {
-            "aliases": {},
-            "name": "zone3"
-        },
-        "18": {
             "aliases": {
-                "11": {
-                    "ip": "192.168.1.100",
-                    "name": "alias11",
-                    "nqn": "",
-                    "type": "Controller"
+                "5": {
+                    "name": "alias5",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.10",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+                },
+                "1": {
+                    "name": "alias1",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1"
                 }
             },
-            "name": "zone8"
+            "name": "zone3"
         },
         "2": {
             "aliases": {
@@ -45,21 +41,6 @@
         }
     },
     "inactive_zones": {
-        "19": {
-            "aliases": {},
-            "name": "zone9"
-        },
-        "4": {
-            "aliases": {
-                "8": {
-                    "name": "alias12",
-                    "type": "Host-Port",
-                    "ip": "192.168.1.40",
-                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p4"
-                }
-            },
-            "name": "zone4"
-        },
         "5": {
             "aliases": {
                 "7": {
@@ -71,8 +52,9 @@
             },
             "name": "zone5"
         },
-        "7": {
-            "name": "zone7"
+        "4": {
+            "aliases": {},
+            "name": "zone4"
         }
     }
 }

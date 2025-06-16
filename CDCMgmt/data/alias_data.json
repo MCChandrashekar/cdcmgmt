@@ -23,24 +23,6 @@
             "type": "Host-Port",
             "ip": "192.168.1.30",
             "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
-        },
-        "14": {
-            "name": "alias8",
-            "type": "Subsystem",
-            "ip": "192.168.1.100",
-            "nqn": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
-        },
-        "11": {
-            "name": "alias11",
-            "type": "Controller",
-            "ip": "192.168.1.100",
-            "nqn": ""
-        },
-        "8": {
-            "name": "alias12",
-            "type": "Host-Port",
-            "ip": "192.168.1.40",
-            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p4"
         }
     },
     "free_aliases": {
@@ -62,18 +44,6 @@
             "ip": "192.168.1.10",
             "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
         },
-        "9": {
-            "name": "alias10",
-            "type": "Host-Port",
-            "ip": "192.168.1.50",
-            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host3-p5"
-        },
-        "12": {
-            "name": "alias9",
-            "type": "Controller",
-            "ip": "192.168.1.110",
-            "nqn": ""
-        },
         "1": {
             "name": "alias1",
             "type": "Host",
@@ -91,18 +61,6 @@
             "type": "Host-Port",
             "ip": "192.168.1.30",
             "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
-        },
-        "14": {
-            "name": "alias8",
-            "type": "Subsystem",
-            "ip": "192.168.1.100",
-            "nqn": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
-        },
-        "11": {
-            "name": "alias11",
-            "type": "Controller",
-            "ip": "192.168.1.100",
-            "nqn": ""
         }
     }
 }

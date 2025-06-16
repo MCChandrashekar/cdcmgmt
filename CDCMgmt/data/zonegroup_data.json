@@ -3,28 +3,20 @@
         "3": {
             "name": "group3",
             "zones": [
-                "5"
+                "17",
+                "16"
             ],
-            "active": false
-        },
-        "8": {
-            "name": "south india",
-            "zones": [],
-            "active": false
-        },
-        "9": {
-            "name": "north india",
-            "zones": [],
             "active": false
         },
         "10": {
             "name": "group4",
-            "zones": [
-                "16",
-                "2",
-                "18"
-            ],
+            "zones": [],
             "active": true
+        },
+        "11": {
+            "name": "group1",
+            "zones": [],
+            "active": false
         }
     }
 }

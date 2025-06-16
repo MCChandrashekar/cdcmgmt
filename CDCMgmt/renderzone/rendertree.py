@@ -2,6 +2,7 @@ import streamlit as st
 from typing import Dict, Tuple
 import json
 import os
+from pathlib import Path
 
 # def transform_zone_data
 def transform_zone_data(json_data: Dict) -> Tuple[Dict, Dict]:
@@ -86,8 +87,8 @@ def transform_zone_data(json_data: Dict) -> Tuple[Dict, Dict]:
 
 def read_file_content(filename: str) -> str:
     """Read content of a file from the Static directory."""
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(current_dir, "RenderZones", "Static", filename)
+    current_dir = Path(__file__).parent.parent
+    file_path = os.path.join(current_dir, "renderzone", "Static", filename)
     if not os.path.exists(file_path):
         raise FileNotFoundError(
             f"{filename} not found in Static directory at {file_path}"
@@ -99,7 +100,7 @@ def read_file_content(filename: str) -> str:
 def load_zone_config() -> Dict:
     """Load the zone configuration from the JSON file inside RenderZones/data/."""
     try:
-        config_path = r"C:\Users\ravid\Desktop\cdc_main\CDCMgmt\data\zone_config.json"
+        config_path = "../CDCMgmt/data/zone_config.json"
 
         if not os.path.exists(config_path):
             raise FileNotFoundError(f"zone_config.json file not found at {config_path}")
@@ -120,12 +121,8 @@ def render_zone_config(json_data: Dict):
         active_tree, inactive_tree = transform_zone_data(json_data)
 
         # Read static files for CSS and JS
-        css_content = read_file_content(
-            r"C:\Users\ravid\Desktop\cdc_main\CDCMgmt\renderzone\Static\style.css"
-        )
-        js_content = read_file_content(
-            r"C:\Users\ravid\Desktop\cdc_main\CDCMgmt\renderzone\Static\tree.js"
-        )
+        css_content = read_file_content("style.css")
+        js_content = read_file_content("tree.js")
 
         # HTML content with proper subheadings and containers
         html_content = f"""
@@ -195,7 +192,7 @@ def render_zone_config(json_data: Dict):
 
 def fetch_zonecfg_and_render():
     zonedata_json = load_zone_config()
-    st.write(zonedata_json)
+    # st.write(zonedata_json)
     render_zone_config(zonedata_json)
 
 

@@ -200,3 +200,4 @@ def cdc_page0_dashboard_text():
     ])
     fig4.update_layout(title="Entity Types", height=300)
     st.plotly_chart(fig4, use_container_width=True)
+

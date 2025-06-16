@@ -1,22 +1,36 @@
 {
   "active": [
     {
-      "ZoneGrpId": 10,
-      "ZoneGrpName": "group4",
-      "zoneCount": 3,
+      "ZoneGrpId": 3,
+      "ZoneGrpName": "group3",
+      "zoneCount": 2,
       "ZoneMembers": [
         {
-          "ZoneId": 16,
-          "ZoneName": "zone1",
+          "ZoneId": 17,
+          "ZoneName": "zone3",
           "aliasCount": 2,
           "AliasMembers": [
+            {
+              "AliasId": 5,
+              "AliasName": "alias5",
+              "Type": "Host-Port",
+              "IPAddress": "192.168.1.10",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+            },
             {
               "AliasId": 1,
               "AliasName": "alias1",
               "Type": "Host",
               "IPAddress": "",
               "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1"
-            },
+            }
+          ]
+        },
+        {
+          "ZoneId": 16,
+          "ZoneName": "zone1",
+          "aliasCount": 1,
+          "AliasMembers": [
             {
               "AliasId": 4,
               "AliasName": "alias4",
@@ -25,43 +39,27 @@
               "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4"
             }
           ]
-        },
-        {
-          "ZoneId": 2,
-          "ZoneName": "zone2",
-          "aliasCount": 1,
-          "AliasMembers": [
-            {
-              "AliasId": 14,
-              "AliasName": "alias8",
-              "Type": "Subsystem",
-              "IPAddress": "192.168.1.100",
-              "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
-            }
-          ]
-        },
-        {
-          "ZoneId": 18,
-          "ZoneName": "zone8",
-          "aliasCount": 1,
-          "AliasMembers": [
-            {
-              "AliasId": 11,
-              "AliasName": "alias11",
-              "Type": "Controller",
-              "IPAddress": "192.168.1.100",
-              "NQN": ""
-            }
-          ]
         }
       ]
+    },
+    {
+      "ZoneGrpId": 10,
+      "ZoneGrpName": "group4",
+      "zoneCount": 0,
+      "ZoneMembers": []
+    },
+    {
+      "ZoneGrpId": 11,
+      "ZoneGrpName": "group1",
+      "zoneCount": 0,
+      "ZoneMembers": []
     }
   ],
   "inactive": [
     {
-      "ZoneGrpId": 3,
-      "ZoneGrpName": "group3",
-      "zoneCount": 1,
+      "ZoneGrpId": 0,
+      "ZoneGrpName": "Ungrouped",
+      "zoneCount": 2,
       "ZoneMembers": [
         {
           "ZoneId": 5,
@@ -76,54 +74,15 @@
               "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
             }
           ]
-        }
-      ]
-    },
-    {
-      "ZoneGrpId": 8,
-      "ZoneGrpName": "south india",
-      "zoneCount": 0,
-      "ZoneMembers": []
-    },
-    {
-      "ZoneGrpId": 9,
-      "ZoneGrpName": "north india",
-      "zoneCount": 0,
-      "ZoneMembers": []
-    },
-    {
-      "ZoneGrpId": 0,
-      "ZoneGrpName": "Ungrouped",
-      "zoneCount": 3,
-      "ZoneMembers": [
-        {
-          "ZoneId": 19,
-          "ZoneName": "zone9",
-          "aliasCount": 0,
-          "AliasMembers": []
         },
         {
           "ZoneId": 4,
           "ZoneName": "zone4",
-          "aliasCount": 1,
-          "AliasMembers": [
-            {
-              "AliasId": 8,
-              "AliasName": "alias12",
-              "Type": "Host-Port",
-              "IPAddress": "192.168.1.40",
-              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p4"
-            }
-          ]
-        },
-        {
-          "ZoneId": 7,
-          "ZoneName": "zone7",
           "aliasCount": 0,
           "AliasMembers": []
         }
       ]
     }
   ],
-  "last_updated": "2025-06-13 18:49:10"
+  "last_updated": "2025-06-16 11:16:22"
 }
