@@ -1,0 +1,123 @@
+.visualization-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.tree-container {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Basic node styles */
+.node rect {
+    stroke: #333;
+    stroke-width: 2px;
+    rx: 10;
+    ry: 10;
+    fill-opacity: 1;
+}
+
+/* Expanded state - lighter shades */
+.node.expanded.host rect { fill: #90EE90; }  /* Light green */
+.node.expanded.array rect { fill: #FFB6C1; }  /* Light pink */
+
+/* Collapsed state - darker shades */
+.node.collapsed.host rect { fill: #228B22; }  /* Dark green */
+.node.collapsed.array rect { fill: #CD5C5C; }  /* Dark pink */
+
+/* Leaf nodes always light colored */
+.node.portal rect { 
+    fill: #ADD8E6 !important;  /* Light blue */
+}
+.node.controller rect { 
+    fill: #DDA0DD !important;  /* Light purple */
+}
+.node.subsystem rect { 
+    fill: #F0E68C !important;  /* Light yellow */
+}
+
+/* Text styles */
+.node text {
+    font: 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    dominant-baseline: middle;
+    text-anchor: middle;
+    pointer-events: none;
+    user-select: none;
+}
+
+/* Text colors based on state */
+.node.collapsed text {
+    fill: white;
+}
+
+.node.expanded text,
+.node.portal text,
+.node.controller text,
+.node.subsystem text {
+    fill: black;
+}
+
+/* Link styles */
+.link {
+    fill: none;
+    stroke-width: 1.5px;
+}
+
+/* Tree link colors */
+.link.host-link {
+    stroke: #006400;  /* Dark green */
+}
+
+.link.controller-link {
+    stroke: #FF1493;  /* Deep pink */
+}
+
+.link.default-link {
+    stroke: #666;
+}
+
+/* Zoning connection styles */
+.link.zoning {
+    stroke: #999;
+    stroke-dasharray: 5,5;
+    opacity: 0.6;
+}
+
+/* Layer management */
+.tree-links-layer {
+    pointer-events: none;
+}
+
+.zoning-links-layer {
+    pointer-events: none;
+}
+
+.nodes-layer {
+    pointer-events: all;
+}
+
+/* Tooltip styles */
+.tooltip {
+    position: absolute;
+    padding: 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    pointer-events: none;
+    z-index: 1000;
+    white-space: pre-line;
+}
+
+/* Title styles */
+.tree-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
