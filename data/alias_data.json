@@ -1,0 +1,78 @@
+{
+    "member_aliases": {
+        "1": {
+            "name": "alias1",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1"
+        },
+        "4": {
+            "name": "alias4",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4"
+        },
+        "5": {
+            "name": "alias5",
+            "type": "Host-Port",
+            "ip": "192.168.1.10",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+        },
+        "7": {
+            "name": "alias6",
+            "type": "Host-Port",
+            "ip": "192.168.1.30",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+        }
+    },
+    "free_aliases": {
+        "2": {
+            "name": "alias2",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2"
+        },
+        "3": {
+            "name": "alias3",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host3"
+        },
+        "5": {
+            "name": "alias5",
+            "type": "Host-Port",
+            "ip": "192.168.1.10",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+        },
+        "1": {
+            "name": "alias1",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1"
+        },
+        "4": {
+            "name": "alias4",
+            "type": "Host",
+            "ip": "",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4"
+        },
+        "7": {
+            "name": "alias6",
+            "type": "Host-Port",
+            "ip": "192.168.1.30",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+        },
+        "10": {
+            "name": "testalias",
+            "type": "Host-Port",
+            "ip": "192.168.1.60",
+            "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4-p6"
+        },
+        "12": {
+            "name": "aliasabc",
+            "type": "Controller",
+            "ip": "192.168.1.110",
+            "nqn": ""
+        }
+    }
+}

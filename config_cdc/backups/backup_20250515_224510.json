@@ -1,0 +1,12 @@
+{
+    "active": [
+        "100.100.1.24/24"
+    ],
+    "log_severity": "INFO",
+    "matched_nodes": {
+        "100.100.1.24/24": {
+            "hosts": [],
+            "subsystems": []
+        }
+    }
+}

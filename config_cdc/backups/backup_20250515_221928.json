@@ -1,0 +1,40 @@
+{
+    "active": [
+        "192.168.2.10/24"
+    ],
+    "inactive": {
+        "ZoneGrpId": 0,
+        "ZoneGrpName": "Unknown",
+        "zoneCount": 1,
+        "ZoneMembers": [
+            {
+                "ZoneId": 3,
+                "ZoneName": "zone2",
+                "aliasCount": 2,
+                "AliasMembers": [
+                    {
+                        "AliasId": 5,
+                        "AliasName": "alias5",
+                        "Type": "Storage",
+                        "IPAddress": "10.22.14.105",
+                        "NQN": "nqn.1992-01.example.com:string25"
+                    },
+                    {
+                        "AliasId": 6,
+                        "AliasName": "alias6",
+                        "Type": "Host",
+                        "IPAddress": "10.22.14.106",
+                        "NQN": "nqn.1992-01.example.com:string26"
+                    }
+                ]
+            }
+        ]
+    },
+    "log_severity": "INFO",
+    "matched_nodes": {
+        "192.168.2.10/24": {
+            "hosts": [],
+            "subsystems": []
+        }
+    }
+}

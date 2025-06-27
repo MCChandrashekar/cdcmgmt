@@ -1,0 +1,153 @@
+
+{
+  "active": [
+    {
+      "ZoneGrpId": 3,
+      "ZoneGrpName": "group3",
+      "zoneCount": 2,
+      "ZoneMembers": [
+        {
+          "ZoneId": 17,
+          "ZoneName": "zone3",
+          "aliasCount": 2,
+          "AliasMembers": [
+            {
+              "AliasId": 5,
+              "AliasName": "alias5",
+              "Type": "Host-Port",
+              "IPAddress": "192.168.1.10",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+            },
+            {
+              "AliasId": 1,
+              "AliasName": "alias1",
+              "Type": "Host",
+              "IPAddress": "",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host1"
+            }
+          ]
+        },
+        {
+          "ZoneId": 16,
+          "ZoneName": "zone1",
+          "aliasCount": 1,
+          "AliasMembers": [
+            {
+              "AliasId": 4,
+              "AliasName": "alias4",
+              "Type": "Host",
+              "IPAddress": "",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZoneGrpId": 11,
+      "ZoneGrpName": "group1",
+      "zoneCount": 1,
+      "ZoneMembers": [
+        {
+          "ZoneId": 7,
+          "ZoneName": "testzone",
+          "aliasCount": 1,
+          "AliasMembers": [
+            {
+              "AliasId": 10,
+              "AliasName": "testalias",
+              "Type": "Host-Port",
+              "IPAddress": "192.168.1.60",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4-p6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ZoneGrpId": 12,
+      "ZoneGrpName": "group2",
+      "zoneCount": 2,
+      "ZoneMembers": [
+        {
+          "ZoneId": 2,
+          "ZoneName": "zone2",
+          "aliasCount": 1,
+          "AliasMembers": [
+            {
+              "AliasId": 14,
+              "AliasName": "alias8",
+              "Type": "Subsystem",
+              "IPAddress": "192.168.1.100",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2"
+            }
+          ]
+        },
+        {
+          "ZoneId": 4,
+          "ZoneName": "zone4",
+          "aliasCount": 0,
+          "AliasMembers": []
+        }
+      ]
+    },
+    {
+      "ZoneGrpId": 13,
+      "ZoneGrpName": "zgrpabc",
+      "zoneCount": 1,
+      "ZoneMembers": [
+        {
+          "ZoneId": 5,
+          "ZoneName": "zone5",
+          "aliasCount": 1,
+          "AliasMembers": [
+            {
+              "AliasId": 7,
+              "AliasName": "alias6",
+              "Type": "Host-Port",
+              "IPAddress": "192.168.1.30",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "inactive": [
+    {
+      "ZoneGrpId": 0,
+      "ZoneGrpName": "Ungrouped",
+      "zoneCount": 2,
+      "ZoneMembers": [
+        {
+          "ZoneId": 6,
+          "ZoneName": "zoneabc",
+          "aliasCount": 2,
+          "AliasMembers": [
+            {
+              "AliasId": 10,
+              "AliasName": "testalias",
+              "Type": "Host-Port",
+              "IPAddress": "192.168.1.60",
+              "NQN": "nqn.2014-08.org.nvmexpress:uuid:host4-p6"
+            },
+            {
+              "AliasId": 12,
+              "AliasName": "aliasabc",
+              "Type": "Controller",
+              "IPAddress": "192.168.1.110",
+              "NQN": ""
+            }
+          ]
+        },
+        {
+          "ZoneId": 8,
+          "ZoneName": "zonexyz",
+          "aliasCount": 0,
+          "AliasMembers": []
+        }
+      ]
+    }
+  ],
+  "last_updated": "2025-06-27 01:53:45"
+}

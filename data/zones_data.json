@@ -1,0 +1,92 @@
+{
+    "active_zones": {
+        "16": {
+            "aliases": {
+                "4": {
+                    "ip": "",
+                    "name": "alias4",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4",
+                    "type": "Host"
+                }
+            },
+            "name": "zone1"
+        },
+        "17": {
+            "aliases": {
+                "5": {
+                    "name": "alias5",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.10",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1-p1"
+                },
+                "1": {
+                    "name": "alias1",
+                    "type": "Host",
+                    "ip": "",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host1"
+                }
+            },
+            "name": "zone3"
+        },
+        "2": {
+            "aliases": {
+                "14": {
+                    "ip": "192.168.1.100",
+                    "name": "alias8",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:c0subsys2",
+                    "type": "Subsystem"
+                }
+            },
+            "name": "zone2"
+        }
+    },
+    "inactive_zones": {
+        "5": {
+            "aliases": {
+                "7": {
+                    "name": "alias6",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.30",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host2-p3"
+                }
+            },
+            "name": "zone5"
+        },
+        "4": {
+            "aliases": {},
+            "name": "zone4"
+        },
+        "6": {
+            "name": "zoneabc",
+            "aliases": {
+                "10": {
+                    "name": "testalias",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.60",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4-p6"
+                },
+                "12": {
+                    "name": "aliasabc",
+                    "type": "Controller",
+                    "ip": "192.168.1.110",
+                    "nqn": ""
+                }
+            }
+        },
+        "7": {
+            "name": "testzone",
+            "aliases": {
+                "10": {
+                    "name": "testalias",
+                    "type": "Host-Port",
+                    "ip": "192.168.1.60",
+                    "nqn": "nqn.2014-08.org.nvmexpress:uuid:host4-p6"
+                }
+            }
+        },
+        "8": {
+            "name": "zonexyz",
+            "aliases": {}
+        }
+    }
+}

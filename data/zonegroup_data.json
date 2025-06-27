@@ -1,0 +1,39 @@
+{
+    "zone_groups": {
+        "3": {
+            "name": "group3",
+            "zones": [
+                "17",
+                "16"
+            ],
+            "active": false
+        },
+        "11": {
+            "name": "group1",
+            "zones": [
+                "7"
+            ],
+            "active": false
+        },
+        "12": {
+            "name": "group2",
+            "zones": [
+                "2",
+                "4"
+            ],
+            "active": false
+        },
+        "13": {
+            "name": "zgrpabc",
+            "zones": [
+                "5"
+            ],
+            "active": false
+        },
+        "14": {
+            "name": "testzgrp",
+            "zones": [],
+            "active": false
+        }
+    }
+}
